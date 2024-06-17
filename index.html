@@ -90,6 +90,25 @@
             background-color: #4CAF50;
             color: white;
         }
+        .result-item {
+            position: relative;
+            /* Other existing styles */
+        }
+        
+        .result-link {
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin-top: 5px; /* Adjust as needed */
+            margin-right: 5px; /* Adjust as needed */
+        }
+        
+        .result-link img {
+            display: block;
+            width: 20px;
+            height: 20px;
+        }
+        
     </style>
 </head>
 <body>
@@ -140,8 +159,8 @@
 
                         // Search through each key-value pair in the JSON
                         for (const key in json) {
-                            if (json[key].toLowerCase().includes(query)) {
-                                filteredResults.push({ title: key, content: json[key] });
+                            if (json[key]['text'].toLowerCase().includes(query)) {
+                                filteredResults.push({ title: key, content: json[key]['text'], url: json[key]['url'] });
                             }
                         }
                     } catch (error) {
@@ -164,19 +183,39 @@
         function displayResults() {
             const resultsContainer = document.getElementById('results');
             resultsContainer.innerHTML = '';
-
+        
             const startIndex = (currentPage - 1) * resultsPerPage;
             const endIndex = startIndex + resultsPerPage;
             const resultsToShow = filteredResults.slice(startIndex, endIndex);
-
+        
             resultsToShow.forEach(result => {
                 const resultElement = document.createElement('div');
                 resultElement.classList.add('result-item');
                 const highlightedText = highlightMatch(result.content, document.getElementById('search-input').value.toLowerCase());
-                resultElement.innerHTML = `<strong>${result.title}:</strong> ${highlightedText}`;
+                
+                // Create result content with highlighted text
+                resultElement.innerHTML = `
+                    <div class="result-content">
+                        <strong>${result.title}:</strong> ${highlightedText}
+                    </div>
+                    <div class="result-link">
+                        <a href="${result.url}" target="_blank" title="Open URL">
+                            <img src="https://static-00.iconduck.com/assets.00/youtube-icon-512x512-80maysdk.png" alt="YouTube Icon" width="20" height="20">
+                        </a>
+                    </div>
+                `;
+                
                 resultsContainer.appendChild(resultElement);
+                
+                // Handle click on link icon to open URL in new tab
+                const linkIcon = resultElement.querySelector('.result-link a');
+                linkIcon.addEventListener('click', (event) => {
+                    event.stopPropagation(); // Prevents the click on the icon from triggering other click events
+                    window.open(result.url, '_blank');
+                });
             });
         }
+        
 
         function generatePagination() {
             const paginationContainer = document.getElementById('pagination');
