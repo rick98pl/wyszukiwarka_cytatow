@@ -1,20 +1,74 @@
 {
-    "KAPITAN BOMBA - SZEREGOWIEC ZADAJE GŁUPIE PYTANIE (ODC. 2) 0:00": " Galaktyka Corvix została opanowana przez złych kosmitów! Pokonać ich może tylko załoga Gwiezdnego Patrolu! Na czele której stoi...",
-    "KAPITAN BOMBA - SZEREGOWIEC ZADAJE GŁUPIE PYTANIE (ODC. 2) 0:05": "KAPITAN BOMBA! Miejsce planeta HU-I-22! Misja tajne! Albo dobra...",
-    "KAPITAN BOMBA - SZEREGOWIEC ZADAJE GŁUPIE PYTANIE (ODC. 2) 0:10": "Misja zlikwidow...",
-    "KAPITAN BOMBA - SZEREGOWIEC ZADAJE GŁUPIE PYTANIE (ODC. 2) 0:15": "Albo nie...",
-    "KAPITAN BOMBA - SZEREGOWIEC ZADAJE GŁUPIE PYTANIE (ODC. 2) 0:20": "Misja tajne! Dobra, mamy go! Teraz spokojnie! Plan jest taki! Na 3-4 wyskakujemy i napierdala my z karabinów ile fabryka dała! Są jakieś pytania?",
-    "KAPITAN BOMBA - SZEREGOWIEC ZADAJE GŁUPIE PYTANIE (ODC. 2) 0:25": "Kur...",
-    "KAPITAN BOMBA - SZEREGOWIEC ZADAJE GŁUPIE PYTANIE (ODC. 2) 0:30": "ja mam pytanie, panie kapitanie! No to kur...",
-    "KAPITAN BOMBA - SZEREGOWIEC ZADAJE GŁUPIE PYTANIE (ODC. 2) 0:35": "pytaj! Dobra, to tak...",
-    "KAPITAN BOMBA - SZEREGOWIEC ZADAJE GŁUPIE PYTANIE (ODC. 2) 0:40": "Co by pan zrobił, gdyby się pan dowiedział, że pańska siorka opierdala kiełbachy kosmitom?",
-    "KAPITAN BOMBA - SZEREGOWIEC ZADAJE GŁUPIE PYTANIE (ODC. 2) 0:45": "Tępy ch...",
-    "KAPITAN BOMBA - SZEREGOWIEC ZADAJE GŁUPIE PYTANIE (ODC. 2) 0:50": "Przecież ja nie mam siostry! Aha...",
-    "KAPITAN BOMBA - SZEREGOWIEC ZADAJE GŁUPIE PYTANIE (ODC. 2) 0:55": "Dobra kur...",
-    "KAPITAN BOMBA - SZEREGOWIEC ZADAJE GŁUPIE PYTANIE (ODC. 2) 1:00": "wolno...",
-    "KAPITAN BOMBA - SZEREGOWIEC ZADAJE GŁUPIE PYTANIE (ODC. 2) 1:05": "3...",
-    "KAPITAN BOMBA - SZEREGOWIEC ZADAJE GŁUPIE PYTANIE (ODC. 2) 1:10": "4...",
-    "KAPITAN BOMBA - SZEREGOWIEC ZADAJE GŁUPIE PYTANIE (ODC. 2) 1:15": "RY! Kur...",
-    "KAPITAN BOMBA - SZEREGOWIEC ZADAJE GŁUPIE PYTANIE (ODC. 2) 1:20": "no i sp...",
-    "KAPITAN BOMBA - SZEREGOWIEC ZADAJE GŁUPIE PYTANIE (ODC. 2) 1:25": "dolił! Kapitan Bomba! KONIEC! KONIEC! KONIEC! KONIEC! KONIEC! KONIEC! KONIEC!"
+    "KAPITAN BOMBA - SZEREGOWIEC ZADAJE GŁUPIE PYTANIE (ODC. 2) [0:00]": {
+        "text": " Galaktyka Corvix została opanowana przez złych kosmitów! Pokonać ich może tylko załoga Gwiezdnego Patrolu! Na czele której stoi...",
+        "url": "https://youtu.be/PRvTe4s7k9Y?t=0"
+    },
+    "KAPITAN BOMBA - SZEREGOWIEC ZADAJE GŁUPIE PYTANIE (ODC. 2) [0:05]": {
+        "text": "KAPITAN BOMBA! Miejsce planeta HU-I-22! Misja tajne! Albo dobra...",
+        "url": "https://youtu.be/PRvTe4s7k9Y?t=5"
+    },
+    "KAPITAN BOMBA - SZEREGOWIEC ZADAJE GŁUPIE PYTANIE (ODC. 2) [0:10]": {
+        "text": "Misja zlikwidow...",
+        "url": "https://youtu.be/PRvTe4s7k9Y?t=10"
+    },
+    "KAPITAN BOMBA - SZEREGOWIEC ZADAJE GŁUPIE PYTANIE (ODC. 2) [0:15]": {
+        "text": "Albo nie...",
+        "url": "https://youtu.be/PRvTe4s7k9Y?t=15"
+    },
+    "KAPITAN BOMBA - SZEREGOWIEC ZADAJE GŁUPIE PYTANIE (ODC. 2) [0:20]": {
+        "text": "Misja tajne! Dobra, mamy go! Teraz spokojnie! Plan jest taki! Na 3-4 wyskakujemy i napierdala my z karabinów ile fabryka dała! Są jakieś pytania?",
+        "url": "https://youtu.be/PRvTe4s7k9Y?t=20"
+    },
+    "KAPITAN BOMBA - SZEREGOWIEC ZADAJE GŁUPIE PYTANIE (ODC. 2) [0:25]": {
+        "text": "Kur...",
+        "url": "https://youtu.be/PRvTe4s7k9Y?t=25"
+    },
+    "KAPITAN BOMBA - SZEREGOWIEC ZADAJE GŁUPIE PYTANIE (ODC. 2) [0:30]": {
+        "text": "ja mam pytanie, panie kapitanie! No to kur...",
+        "url": "https://youtu.be/PRvTe4s7k9Y?t=30"
+    },
+    "KAPITAN BOMBA - SZEREGOWIEC ZADAJE GŁUPIE PYTANIE (ODC. 2) [0:35]": {
+        "text": "pytaj! Dobra, to tak...",
+        "url": "https://youtu.be/PRvTe4s7k9Y?t=35"
+    },
+    "KAPITAN BOMBA - SZEREGOWIEC ZADAJE GŁUPIE PYTANIE (ODC. 2) [0:40]": {
+        "text": "Co by pan zrobił, gdyby się pan dowiedział, że pańska siorka opierdala kiełbachy kosmitom?",
+        "url": "https://youtu.be/PRvTe4s7k9Y?t=40"
+    },
+    "KAPITAN BOMBA - SZEREGOWIEC ZADAJE GŁUPIE PYTANIE (ODC. 2) [0:45]": {
+        "text": "Tępy ch...",
+        "url": "https://youtu.be/PRvTe4s7k9Y?t=45"
+    },
+    "KAPITAN BOMBA - SZEREGOWIEC ZADAJE GŁUPIE PYTANIE (ODC. 2) [0:50]": {
+        "text": "Przecież ja nie mam siostry! Aha...",
+        "url": "https://youtu.be/PRvTe4s7k9Y?t=50"
+    },
+    "KAPITAN BOMBA - SZEREGOWIEC ZADAJE GŁUPIE PYTANIE (ODC. 2) [0:55]": {
+        "text": "Dobra kur...",
+        "url": "https://youtu.be/PRvTe4s7k9Y?t=55"
+    },
+    "KAPITAN BOMBA - SZEREGOWIEC ZADAJE GŁUPIE PYTANIE (ODC. 2) [1:00]": {
+        "text": "wolno...",
+        "url": "https://youtu.be/PRvTe4s7k9Y?t=60"
+    },
+    "KAPITAN BOMBA - SZEREGOWIEC ZADAJE GŁUPIE PYTANIE (ODC. 2) [1:05]": {
+        "text": "3...",
+        "url": "https://youtu.be/PRvTe4s7k9Y?t=65"
+    },
+    "KAPITAN BOMBA - SZEREGOWIEC ZADAJE GŁUPIE PYTANIE (ODC. 2) [1:10]": {
+        "text": "4...",
+        "url": "https://youtu.be/PRvTe4s7k9Y?t=70"
+    },
+    "KAPITAN BOMBA - SZEREGOWIEC ZADAJE GŁUPIE PYTANIE (ODC. 2) [1:15]": {
+        "text": "RY! Kur...",
+        "url": "https://youtu.be/PRvTe4s7k9Y?t=75"
+    },
+    "KAPITAN BOMBA - SZEREGOWIEC ZADAJE GŁUPIE PYTANIE (ODC. 2) [1:20]": {
+        "text": "no i sp...",
+        "url": "https://youtu.be/PRvTe4s7k9Y?t=80"
+    },
+    "KAPITAN BOMBA - SZEREGOWIEC ZADAJE GŁUPIE PYTANIE (ODC. 2) [1:25]": {
+        "text": "dolił! Kapitan Bomba! KONIEC! KONIEC! KONIEC! KONIEC! KONIEC! KONIEC! KONIEC!",
+        "url": "https://youtu.be/PRvTe4s7k9Y?t=85"
+    }
 }
