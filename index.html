@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subtitle Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #search-results {
+            margin-top: 20px;
+        }
+        .result {
+            margin-bottom: 10px;
+        }
+        .episode-title {
+            font-weight: bold;
+        }
+        .subtitle-entry {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Subtitle Search</h1>
+    <input type="text" id="search-input" placeholder="Enter text to search for...">
+    <button onclick="searchSubtitles()">Search</button>
+    <div id="search-results"></div>
+
+    <script>
+        async function fetchJsonFile(fileName) {
+            const response = await fetch(`https://raw.githubusercontent.com/rick98pl/wyszukiwarka_cytatow/main/kapitanBombaSubtitles/${fileName}`);
+            return response.json();
+        }
+
+        async function searchSubtitles() {
+            const searchTerm = document.getElementById('search-input').value.toLowerCase();
+            const resultContainer = document.getElementById('search-results');
+            resultContainer.innerHTML = '';
+
+            // List of JSON files in the repository
+            const jsonFiles = [
+                'KAPITAN BOMBA - CZYNNOŚCI ADMINISTRACYJNE (ODC. 1).json',
+            ];
+
+            for (const fileName of jsonFiles) {
+                const subtitles = await fetchJsonFile(fileName);
+                let episodeResults = '';
+
+                for (const [time, text] of Object.entries(subtitles)) {
+                    if (text.toLowerCase().includes(searchTerm)) {
+                        episodeResults += `<div class="subtitle-entry">${time} - ${text}</div>`;
+                    }
+                }
+
+                if (episodeResults) {
+                    resultContainer.innerHTML += `
+                        <div class="result">
+                            <div class="episode-title">${fileName.replace('.json', '')}</div>
+                            ${episodeResults}
+                        </div>
+                    `;
+                }
+            }
+
+            if (!resultContainer.innerHTML) {
+                resultContainer.innerHTML = '<p>No results found.</p>';
+            }
+        }
+    </script>
+</body>
+</html>
