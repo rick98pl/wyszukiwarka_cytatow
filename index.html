@@ -146,7 +146,7 @@
 
                 // Extract file names from the response
                 const files = data.map(item => item.download_url);
-
+                
                 // Reset pagination variables
                 currentPage = 1;
                 filteredResults = [];
@@ -156,13 +156,37 @@
                     try {
                         const response = await fetch(file);
                         const json = await response.json();
-
-                        // Search through each key-value pair in the JSON
-                        for (const key in json) {
-                            if (json[key]['text'].toLowerCase().includes(query)) {
-                                filteredResults.push({ title: key, content: json[key]['text'], url: json[key]['url'] });
+                        if(query != '' && query != ' '){
+                            // Search through each key-value pair in the JSON
+                            for (const key in json) {
+                                if (json[key]['text'].toLowerCase().includes(query)) {
+                                    filteredResults.push({ title: key, content: json[key]['text'], url: json[key]['url'] });
+                                }
                             }
                         }
+
+                        let seenTitles = {};
+                        filteredResults = filteredResults.filter((item) => {
+                            // Extract title from current item
+                            let title = item.title;
+                        
+                            // Check if title already exists in seenTitles object
+                            if (seenTitles[title]) {
+                                return false; // Duplicate found, skip this item
+                            } else {
+                                seenTitles[title] = true; // Mark title as seen
+                                return true; // Not a duplicate, include this item
+                            }
+                        });
+                        
+                        filteredResults.sort((a, b) => {
+                            // Extract numbers inside [] from title strings
+                            let numA = parseInt(a.title.match(/\[(\d+)\]/)[1]); // Extract number from title a
+                            let numB = parseInt(b.title.match(/\[(\d+)\]/)[1]); // Extract number from title b
+                            
+                            // Compare the extracted numbers
+                            return -(numA - numB);
+                        });
                     } catch (error) {
                         console.error('Error fetching JSON file:', error);
                     }
