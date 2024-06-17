@@ -1,8 +1,26 @@
 {
-    "KAPITAN BOMBA - MARTWY KOSMITA-DOBRY KOSMITA (ODC. 7) 0:00": " Galaktyka Corvix została opanowana przez złych kosmitów! Pokonać ich może tylko załoga Gwiezdnego Patrolu! Na czele której stoi...",
-    "KAPITAN BOMBA - MARTWY KOSMITA-DOBRY KOSMITA (ODC. 7) 0:05": "KAPITAN BOMBA! Planeta CI-P3! Martwy Kosmita, dobry Kosmita! Panie Kapitanie, dlaczego pan strzelał?",
-    "KAPITAN BOMBA - MARTWY KOSMITA-DOBRY KOSMITA (ODC. 7) 0:10": "Przecież tam nie było żadnego kosmity! Lubię se czasem tak profilaktycznie ponapierdalać! Niech to b***j! Nie mam już amunicji! Żołnierze! Napierdalać! Ma-ma...",
-    "KAPITAN BOMBA - MARTWY KOSMITA-DOBRY KOSMITA (ODC. 7) 0:15": "Ma-ma...",
-    "KAPITAN BOMBA - MARTWY KOSMITA-DOBRY KOSMITA (ODC. 7) 0:20": "Ma-ma...",
-    "KAPITAN BOMBA - MARTWY KOSMITA-DOBRY KOSMITA (ODC. 7) 0:25": "O k***a! Następny! Napierdalać! Kapitan Bomba!"
+    "KAPITAN BOMBA - MARTWY KOSMITA-DOBRY KOSMITA (ODC. 7) [0:00]": {
+        "text": " Galaktyka Corvix została opanowana przez złych kosmitów! Pokonać ich może tylko załoga Gwiezdnego Patrolu! Na czele której stoi...",
+        "url": "https://youtu.be/I-2_zB2Az8U?t=0"
+    },
+    "KAPITAN BOMBA - MARTWY KOSMITA-DOBRY KOSMITA (ODC. 7) [0:05]": {
+        "text": "KAPITAN BOMBA! Planeta CI-P3! Martwy Kosmita, dobry Kosmita! Panie Kapitanie, dlaczego pan strzelał?",
+        "url": "https://youtu.be/I-2_zB2Az8U?t=5"
+    },
+    "KAPITAN BOMBA - MARTWY KOSMITA-DOBRY KOSMITA (ODC. 7) [0:10]": {
+        "text": "Przecież tam nie było żadnego kosmity! Lubię se czasem tak profilaktycznie ponapierdalać! Niech to b***j! Nie mam już amunicji! Żołnierze! Napierdalać! Ma-ma...",
+        "url": "https://youtu.be/I-2_zB2Az8U?t=10"
+    },
+    "KAPITAN BOMBA - MARTWY KOSMITA-DOBRY KOSMITA (ODC. 7) [0:15]": {
+        "text": "Ma-ma...",
+        "url": "https://youtu.be/I-2_zB2Az8U?t=15"
+    },
+    "KAPITAN BOMBA - MARTWY KOSMITA-DOBRY KOSMITA (ODC. 7) [0:20]": {
+        "text": "Ma-ma...",
+        "url": "https://youtu.be/I-2_zB2Az8U?t=20"
+    },
+    "KAPITAN BOMBA - MARTWY KOSMITA-DOBRY KOSMITA (ODC. 7) [0:25]": {
+        "text": "O k***a! Następny! Napierdalać! Kapitan Bomba!",
+        "url": "https://youtu.be/I-2_zB2Az8U?t=25"
+    }
 }

@@ -1,19 +1,70 @@
 {
-    "KAPITAN BOMBA - ODSZUKAĆ WYJŚCIE Z JASKINI (ODC. 3) 0:00": " Galaktyka Corvix została opanowana przez złych kosmitów! Pokonać ich może tylko załoga Gwiezdnego Patrolu! Na czele której stoi...",
-    "KAPITAN BOMBA - ODSZUKAĆ WYJŚCIE Z JASKINI (ODC. 3) 0:05": "KAPITAN BOMBA! Miejsce w rozległej jaskinie planety Wpizdylion 1.",
-    "KAPITAN BOMBA - ODSZUKAĆ WYJŚCIE Z JASKINI (ODC. 3) 0:10": "Misja?",
-    "KAPITAN BOMBA - ODSZUKAĆ WYJŚCIE Z JASKINI (ODC. 3) 0:15": "Nawet gdybym wiedział, to bym nie powiedział, bo jest...",
-    "KAPITAN BOMBA - ODSZUKAĆ WYJŚCIE Z JASKINI (ODC. 3) 0:20": "tajne.",
-    "KAPITAN BOMBA - ODSZUKAĆ WYJŚCIE Z JASKINI (ODC. 3) 0:25": "Właściwie to wiem, ale nie powiem.",
-    "KAPITAN BOMBA - ODSZUKAĆ WYJŚCIE Z JASKINI (ODC. 3) 0:30": "To znaczy nie napiszę, bo tak naprawdę to ja piszę.",
-    "KAPITAN BOMBA - ODSZUKAĆ WYJŚCIE Z JASKINI (ODC. 3) 0:35": "A mowa to jest syntetyczna.",
-    "KAPITAN BOMBA - ODSZUKAĆ WYJŚCIE Z JASKINI (ODC. 3) 0:40": "A bo dobra.",
-    "KAPITAN BOMBA - ODSZUKAĆ WYJŚCIE Z JASKINI (ODC. 3) 0:45": "Misja?",
-    "KAPITAN BOMBA - ODSZUKAĆ WYJŚCIE Z JASKINI (ODC. 3) 0:50": "Odszukać wyjście z jaskini! Dobra, tępe ch**ie! Kto pamięta, którędy się stąd wychodzi?",
-    "KAPITAN BOMBA - ODSZUKAĆ WYJŚCIE Z JASKINI (ODC. 3) 0:55": "Panie Kapitanie, przecież jesteśmy tępymi ch**ami! Nie może pan od nas tyle wymagać! He he, no tak, ch**wa, zapomniałem.",
-    "KAPITAN BOMBA - ODSZUKAĆ WYJŚCIE Z JASKINI (ODC. 3) 1:00": "Ale zaraz, ja też nie wiem, jak się stąd wychodzi.",
-    "KAPITAN BOMBA - ODSZUKAĆ WYJŚCIE Z JASKINI (ODC. 3) 1:05": "A to oznacza, że ja...",
-    "KAPITAN BOMBA - ODSZUKAĆ WYJŚCIE Z JASKINI (ODC. 3) 1:10": "...nie mam pojęcia! O, ch**wa, to k**wi noc! Napierd**amy! Zaczekajcie, tępe ch**ie! Co?",
-    "KAPITAN BOMBA - ODSZUKAĆ WYJŚCIE Z JASKINI (ODC. 3) 1:15": "Wyprowadzę was stąd, ale w zamian wyświadczycie mi małą przysługę! Co wy na to, he?",
-    "KAPITAN BOMBA - ODSZUKAĆ WYJŚCIE Z JASKINI (ODC. 3) 1:20": "Kapitan Bomba! Ch**wa! Chcąco mi się na spust nacisnęło!"
+    "KAPITAN BOMBA - ODSZUKAĆ WYJŚCIE Z JASKINI (ODC. 3) [0:00]": {
+        "text": " Galaktyka Corvix została opanowana przez złych kosmitów! Pokonać ich może tylko załoga Gwiezdnego Patrolu! Na czele której stoi...",
+        "url": "https://youtu.be/jl-hAPew_-I?t=0"
+    },
+    "KAPITAN BOMBA - ODSZUKAĆ WYJŚCIE Z JASKINI (ODC. 3) [0:05]": {
+        "text": "KAPITAN BOMBA! Miejsce w rozległej jaskinie planety Wpizdylion 1.",
+        "url": "https://youtu.be/jl-hAPew_-I?t=5"
+    },
+    "KAPITAN BOMBA - ODSZUKAĆ WYJŚCIE Z JASKINI (ODC. 3) [0:10]": {
+        "text": "Misja?",
+        "url": "https://youtu.be/jl-hAPew_-I?t=10"
+    },
+    "KAPITAN BOMBA - ODSZUKAĆ WYJŚCIE Z JASKINI (ODC. 3) [0:15]": {
+        "text": "Nawet gdybym wiedział, to bym nie powiedział, bo jest...",
+        "url": "https://youtu.be/jl-hAPew_-I?t=15"
+    },
+    "KAPITAN BOMBA - ODSZUKAĆ WYJŚCIE Z JASKINI (ODC. 3) [0:20]": {
+        "text": "tajne.",
+        "url": "https://youtu.be/jl-hAPew_-I?t=20"
+    },
+    "KAPITAN BOMBA - ODSZUKAĆ WYJŚCIE Z JASKINI (ODC. 3) [0:25]": {
+        "text": "Właściwie to wiem, ale nie powiem.",
+        "url": "https://youtu.be/jl-hAPew_-I?t=25"
+    },
+    "KAPITAN BOMBA - ODSZUKAĆ WYJŚCIE Z JASKINI (ODC. 3) [0:30]": {
+        "text": "To znaczy nie napiszę, bo tak naprawdę to ja piszę.",
+        "url": "https://youtu.be/jl-hAPew_-I?t=30"
+    },
+    "KAPITAN BOMBA - ODSZUKAĆ WYJŚCIE Z JASKINI (ODC. 3) [0:35]": {
+        "text": "A mowa to jest syntetyczna.",
+        "url": "https://youtu.be/jl-hAPew_-I?t=35"
+    },
+    "KAPITAN BOMBA - ODSZUKAĆ WYJŚCIE Z JASKINI (ODC. 3) [0:40]": {
+        "text": "A bo dobra.",
+        "url": "https://youtu.be/jl-hAPew_-I?t=40"
+    },
+    "KAPITAN BOMBA - ODSZUKAĆ WYJŚCIE Z JASKINI (ODC. 3) [0:45]": {
+        "text": "Misja?",
+        "url": "https://youtu.be/jl-hAPew_-I?t=45"
+    },
+    "KAPITAN BOMBA - ODSZUKAĆ WYJŚCIE Z JASKINI (ODC. 3) [0:50]": {
+        "text": "Odszukać wyjście z jaskini! Dobra, tępe ch**ie! Kto pamięta, którędy się stąd wychodzi?",
+        "url": "https://youtu.be/jl-hAPew_-I?t=50"
+    },
+    "KAPITAN BOMBA - ODSZUKAĆ WYJŚCIE Z JASKINI (ODC. 3) [0:55]": {
+        "text": "Panie Kapitanie, przecież jesteśmy tępymi ch**ami! Nie może pan od nas tyle wymagać! He he, no tak, ch**wa, zapomniałem.",
+        "url": "https://youtu.be/jl-hAPew_-I?t=55"
+    },
+    "KAPITAN BOMBA - ODSZUKAĆ WYJŚCIE Z JASKINI (ODC. 3) [1:00]": {
+        "text": "Ale zaraz, ja też nie wiem, jak się stąd wychodzi.",
+        "url": "https://youtu.be/jl-hAPew_-I?t=60"
+    },
+    "KAPITAN BOMBA - ODSZUKAĆ WYJŚCIE Z JASKINI (ODC. 3) [1:05]": {
+        "text": "A to oznacza, że ja...",
+        "url": "https://youtu.be/jl-hAPew_-I?t=65"
+    },
+    "KAPITAN BOMBA - ODSZUKAĆ WYJŚCIE Z JASKINI (ODC. 3) [1:10]": {
+        "text": "...nie mam pojęcia! O, ch**wa, to k**wi noc! Napierd**amy! Zaczekajcie, tępe ch**ie! Co?",
+        "url": "https://youtu.be/jl-hAPew_-I?t=70"
+    },
+    "KAPITAN BOMBA - ODSZUKAĆ WYJŚCIE Z JASKINI (ODC. 3) [1:15]": {
+        "text": "Wyprowadzę was stąd, ale w zamian wyświadczycie mi małą przysługę! Co wy na to, he?",
+        "url": "https://youtu.be/jl-hAPew_-I?t=75"
+    },
+    "KAPITAN BOMBA - ODSZUKAĆ WYJŚCIE Z JASKINI (ODC. 3) [1:20]": {
+        "text": "Kapitan Bomba! Ch**wa! Chcąco mi się na spust nacisnęło!",
+        "url": "https://youtu.be/jl-hAPew_-I?t=80"
+    }
 }

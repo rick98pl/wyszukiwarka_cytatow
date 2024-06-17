@@ -1,17 +1,62 @@
 {
-    "KAPITAN BOMBA - ADMIRAŁ GWIEZDNEJ FLOTY (ODC. 5) 0:00": " Galaktyka Kurwix została opanowana przez złych kosmitów! Pokonać ich może tylko załoga Gwiezdnego Patrolu, na czele której stoi...",
-    "KAPITAN BOMBA - ADMIRAŁ GWIEZDNEJ FLOTY (ODC. 5) 0:05": "KAPITAN BOMBA! Miejsce peryferii Galaktyki Kurwix.",
-    "KAPITAN BOMBA - ADMIRAŁ GWIEZDNEJ FLOTY (ODC. 5) 0:10": "Planeta Q-T-A-Z-2.",
-    "KAPITAN BOMBA - ADMIRAŁ GWIEZDNEJ FLOTY (ODC. 5) 0:15": "Misja...",
-    "KAPITAN BOMBA - ADMIRAŁ GWIEZDNEJ FLOTY (ODC. 5) 0:20": "Bardzo mi przykro, ale nie powiem, bo jest tajne.",
-    "KAPITAN BOMBA - ADMIRAŁ GWIEZDNEJ FLOTY (ODC. 5) 0:25": "No, mogę nadmienić, że misja ma związek z admirałem Gwiezdnej Floty.",
-    "KAPITAN BOMBA - ADMIRAŁ GWIEZDNEJ FLOTY (ODC. 5) 0:30": "Ale tego, że został porwany przez kosmitów, to już nie mogę powiedzieć.",
-    "KAPITAN BOMBA - ADMIRAŁ GWIEZDNEJ FLOTY (ODC. 5) 0:35": "Ale można się samemu domyśleć.",
-    "KAPITAN BOMBA - ADMIRAŁ GWIEZDNEJ FLOTY (ODC. 5) 0:40": "Panie Admirale, jest pan tam?",
-    "KAPITAN BOMBA - ADMIRAŁ GWIEZDNEJ FLOTY (ODC. 5) 0:45": "Piśnij tylko choć słówko, a zobaczysz.",
-    "KAPITAN BOMBA - ADMIRAŁ GWIEZDNEJ FLOTY (ODC. 5) 0:50": "Wyrwę ci oczy i włosy do dupy.",
-    "KAPITAN BOMBA - ADMIRAŁ GWIEZDNEJ FLOTY (ODC. 5) 0:55": "I będziesz gówno widział! Gówno widział! A to mi się udało! O kurwa, chyba mnie usłyszeli.",
-    "KAPITAN BOMBA - ADMIRAŁ GWIEZDNEJ FLOTY (ODC. 5) 1:00": "Panie Kapitanie, a jak tam był pan admirał?",
-    "KAPITAN BOMBA - ADMIRAŁ GWIEZDNEJ FLOTY (ODC. 5) 1:05": "Tępy ch**iu, gdyby był, to by się odezwał.",
-    "KAPITAN BOMBA - ADMIRAŁ GWIEZDNEJ FLOTY (ODC. 5) 1:10": "BOMBA! TE IDIOTO! Kapitan Bomba!"
+    "KAPITAN BOMBA - ADMIRAŁ GWIEZDNEJ FLOTY (ODC. 5) [0:00]": {
+        "text": " Galaktyka Kurwix została opanowana przez złych kosmitów! Pokonać ich może tylko załoga Gwiezdnego Patrolu, na czele której stoi...",
+        "url": "https://youtu.be/JnN5zCU-3Bc?t=0"
+    },
+    "KAPITAN BOMBA - ADMIRAŁ GWIEZDNEJ FLOTY (ODC. 5) [0:05]": {
+        "text": "KAPITAN BOMBA! Miejsce peryferii Galaktyki Kurwix.",
+        "url": "https://youtu.be/JnN5zCU-3Bc?t=5"
+    },
+    "KAPITAN BOMBA - ADMIRAŁ GWIEZDNEJ FLOTY (ODC. 5) [0:10]": {
+        "text": "Planeta Q-T-A-Z-2.",
+        "url": "https://youtu.be/JnN5zCU-3Bc?t=10"
+    },
+    "KAPITAN BOMBA - ADMIRAŁ GWIEZDNEJ FLOTY (ODC. 5) [0:15]": {
+        "text": "Misja...",
+        "url": "https://youtu.be/JnN5zCU-3Bc?t=15"
+    },
+    "KAPITAN BOMBA - ADMIRAŁ GWIEZDNEJ FLOTY (ODC. 5) [0:20]": {
+        "text": "Bardzo mi przykro, ale nie powiem, bo jest tajne.",
+        "url": "https://youtu.be/JnN5zCU-3Bc?t=20"
+    },
+    "KAPITAN BOMBA - ADMIRAŁ GWIEZDNEJ FLOTY (ODC. 5) [0:25]": {
+        "text": "No, mogę nadmienić, że misja ma związek z admirałem Gwiezdnej Floty.",
+        "url": "https://youtu.be/JnN5zCU-3Bc?t=25"
+    },
+    "KAPITAN BOMBA - ADMIRAŁ GWIEZDNEJ FLOTY (ODC. 5) [0:30]": {
+        "text": "Ale tego, że został porwany przez kosmitów, to już nie mogę powiedzieć.",
+        "url": "https://youtu.be/JnN5zCU-3Bc?t=30"
+    },
+    "KAPITAN BOMBA - ADMIRAŁ GWIEZDNEJ FLOTY (ODC. 5) [0:35]": {
+        "text": "Ale można się samemu domyśleć.",
+        "url": "https://youtu.be/JnN5zCU-3Bc?t=35"
+    },
+    "KAPITAN BOMBA - ADMIRAŁ GWIEZDNEJ FLOTY (ODC. 5) [0:40]": {
+        "text": "Panie Admirale, jest pan tam?",
+        "url": "https://youtu.be/JnN5zCU-3Bc?t=40"
+    },
+    "KAPITAN BOMBA - ADMIRAŁ GWIEZDNEJ FLOTY (ODC. 5) [0:45]": {
+        "text": "Piśnij tylko choć słówko, a zobaczysz.",
+        "url": "https://youtu.be/JnN5zCU-3Bc?t=45"
+    },
+    "KAPITAN BOMBA - ADMIRAŁ GWIEZDNEJ FLOTY (ODC. 5) [0:50]": {
+        "text": "Wyrwę ci oczy i włosy do dupy.",
+        "url": "https://youtu.be/JnN5zCU-3Bc?t=50"
+    },
+    "KAPITAN BOMBA - ADMIRAŁ GWIEZDNEJ FLOTY (ODC. 5) [0:55]": {
+        "text": "I będziesz gówno widział! Gówno widział! A to mi się udało! O kurwa, chyba mnie usłyszeli.",
+        "url": "https://youtu.be/JnN5zCU-3Bc?t=55"
+    },
+    "KAPITAN BOMBA - ADMIRAŁ GWIEZDNEJ FLOTY (ODC. 5) [1:00]": {
+        "text": "Panie Kapitanie, a jak tam był pan admirał?",
+        "url": "https://youtu.be/JnN5zCU-3Bc?t=60"
+    },
+    "KAPITAN BOMBA - ADMIRAŁ GWIEZDNEJ FLOTY (ODC. 5) [1:05]": {
+        "text": "Tępy ch**iu, gdyby był, to by się odezwał.",
+        "url": "https://youtu.be/JnN5zCU-3Bc?t=65"
+    },
+    "KAPITAN BOMBA - ADMIRAŁ GWIEZDNEJ FLOTY (ODC. 5) [1:10]": {
+        "text": "BOMBA! TE IDIOTO! Kapitan Bomba!",
+        "url": "https://youtu.be/JnN5zCU-3Bc?t=70"
+    }
 }

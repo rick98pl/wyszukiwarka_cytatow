@@ -1,8 +1,26 @@
 {
-    "KAPITAN BOMBA - MISJA: ZROBIĆ PORZĄDEK (ODC. 4) 0:00": " Galaktyka Corvix została opanowana przez złych kosmitów! Pokonać ich może tylko załoga Gwiezdnego Patrolu! Na czele której stoi...",
-    "KAPITAN BOMBA - MISJA: ZROBIĆ PORZĄDEK (ODC. 4) 0:05": "KAPITAN BOMBA! Miejsce jeden z księżyców planety P i ZD-11.",
-    "KAPITAN BOMBA - MISJA: ZROBIĆ PORZĄDEK (ODC. 4) 0:10": "Dla jajec nazwany Ziemia.",
-    "KAPITAN BOMBA - MISJA: ZROBIĆ PORZĄDEK (ODC. 4) 0:15": "Misja zrobić porządek! KONIEC! Nie mam.",
-    "KAPITAN BOMBA - MISJA: ZROBIĆ PORZĄDEK (ODC. 4) 0:20": "K**wa! Czekaj, czekaj! To to Saltos próbuje zrobić! Dobra.",
-    "KAPITAN BOMBA - MISJA: ZROBIĆ PORZĄDEK (ODC. 4) 0:25": "Tępy ch**i! Kapitan Bomba! Nie chcę wytrwać!"
+    "KAPITAN BOMBA - MISJA: ZROBIĆ PORZĄDEK (ODC. 4) [0:00]": {
+        "text": " Galaktyka Corvix została opanowana przez złych kosmitów! Pokonać ich może tylko załoga Gwiezdnego Patrolu! Na czele której stoi...",
+        "url": "https://youtu.be/6WMl6CSlLos?t=0"
+    },
+    "KAPITAN BOMBA - MISJA: ZROBIĆ PORZĄDEK (ODC. 4) [0:05]": {
+        "text": "KAPITAN BOMBA! Miejsce jeden z księżyców planety P i ZD-11.",
+        "url": "https://youtu.be/6WMl6CSlLos?t=5"
+    },
+    "KAPITAN BOMBA - MISJA: ZROBIĆ PORZĄDEK (ODC. 4) [0:10]": {
+        "text": "Dla jajec nazwany Ziemia.",
+        "url": "https://youtu.be/6WMl6CSlLos?t=10"
+    },
+    "KAPITAN BOMBA - MISJA: ZROBIĆ PORZĄDEK (ODC. 4) [0:15]": {
+        "text": "Misja zrobić porządek! KONIEC! Nie mam.",
+        "url": "https://youtu.be/6WMl6CSlLos?t=15"
+    },
+    "KAPITAN BOMBA - MISJA: ZROBIĆ PORZĄDEK (ODC. 4) [0:20]": {
+        "text": "K**wa! Czekaj, czekaj! To to Saltos próbuje zrobić! Dobra.",
+        "url": "https://youtu.be/6WMl6CSlLos?t=20"
+    },
+    "KAPITAN BOMBA - MISJA: ZROBIĆ PORZĄDEK (ODC. 4) [0:25]": {
+        "text": "Tępy ch**i! Kapitan Bomba! Nie chcę wytrwać!",
+        "url": "https://youtu.be/6WMl6CSlLos?t=25"
+    }
 }
