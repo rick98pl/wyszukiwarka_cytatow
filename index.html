@@ -7,66 +7,51 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
         }
-        #search-results {
+        #search-box {
+            margin-bottom: 20px;
+        }
+        #results {
             margin-top: 20px;
-        }
-        .result {
-            margin-bottom: 10px;
-        }
-        .episode-title {
-            font-weight: bold;
-        }
-        .subtitle-entry {
-            margin-left: 20px;
         }
     </style>
 </head>
 <body>
-    <h1>Subtitle Search</h1>
-    <input type="text" id="search-input" placeholder="Enter text to search for...">
-    <button onclick="searchSubtitles()">Search</button>
-    <div id="search-results"></div>
+    <h1>Search Subtitles</h1>
+    <div id="search-box">
+        <input type="text" id="search-input" placeholder="Type your search text here">
+        <button onclick="searchSubtitles()">Search</button>
+    </div>
+    <div id="results"></div>
 
     <script>
-        async function fetchJsonFile(fileName) {
-            const response = await fetch(`https://raw.githubusercontent.com/rick98pl/wyszukiwarka_cytatow/main/kapitanBombaSubtitles/${fileName}`);
-            return response.json();
-        }
-
         async function searchSubtitles() {
-            const searchTerm = document.getElementById('search-input').value.toLowerCase();
-            const resultContainer = document.getElementById('search-results');
-            resultContainer.innerHTML = '';
+            const query = document.getElementById('search-input').value.toLowerCase();
+            const resultsContainer = document.getElementById('results');
+            resultsContainer.innerHTML = '';
 
-            // List of JSON files in the repository
-            const jsonFiles = [
-                'KAPITAN BOMBA - CZYNNOŚCI ADMINISTRACYJNE (ODC. 1).json',
+            // List of JSON files in the GitHub folder
+            const files = [
+                'https://raw.githubusercontent.com/rick98pl/wyszukiwarka_cytatow/main/subtitles/KAPITAN%20BOMBA%20-%20CZYNNO%C5%9ACI%20ADMINISTRACYJNE%20(ODC.%201).json'
+                // Add more files here if needed
             ];
 
-            for (const fileName of jsonFiles) {
-                const subtitles = await fetchJsonFile(fileName);
-                let episodeResults = '';
+            for (const file of files) {
+                try {
+                    const response = await fetch(file);
+                    const json = await response.json();
 
-                for (const [time, text] of Object.entries(subtitles)) {
-                    if (text.toLowerCase().includes(searchTerm)) {
-                        episodeResults += `<div class="subtitle-entry">${time} - ${text}</div>`;
+                    // Search through each key-value pair in the JSON
+                    for (const key in json) {
+                        if (json[key].toLowerCase().includes(query)) {
+                            const result = document.createElement('div');
+                            result.innerHTML = `<strong>${key}:</strong> ${json[key]}`;
+                            resultsContainer.appendChild(result);
+                        }
                     }
+                } catch (error) {
+                    console.error('Error fetching JSON file:', error);
                 }
-
-                if (episodeResults) {
-                    resultContainer.innerHTML += `
-                        <div class="result">
-                            <div class="episode-title">${fileName.replace('.json', '')}</div>
-                            ${episodeResults}
-                        </div>
-                    `;
-                }
-            }
-
-            if (!resultContainer.innerHTML) {
-                resultContainer.innerHTML = '<p>No results found.</p>';
             }
         }
     </script>
